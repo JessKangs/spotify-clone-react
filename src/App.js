@@ -1,12 +1,14 @@
 import { Reset } from "styled-reset";
 import styled from "styled-components";
 import { Sidebar } from "./Sidebar/Sidebar";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
     <Content>
       <Reset />
       <Sidebar />
+      <Footer />
     </Content>
   );
 }
